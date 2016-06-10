@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-#include "../jsoncpp/dist/json/json.h"
+#include "json.h"
 
 
 int main() {
@@ -32,7 +32,7 @@ ifstream in(filename);
 
 
 
-/*
+
 #include <fstream>
 
 std::ifstream config_doc("config_doc.json", std::ifstream::binary);
