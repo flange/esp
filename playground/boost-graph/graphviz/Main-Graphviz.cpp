@@ -40,6 +40,9 @@ void printVertexOutEdges(Graph::vertex_iterator vit, Graph g)
 
   oeIterPair oeip = out_edges(vd, g);
 
+  if (oeip.first == oeip.second)
+    return;
+
   Graph::vertex_descriptor targetV;
 
   for (oeIter oeiter = oeip.first; oeiter != oeip.second; ++oeiter) {
@@ -81,6 +84,42 @@ void printEdgeNames(Graph g)
 }
 
 
+void printGraph(Graph g)
+{
+  typedef Graph::vertex_iterator vIter;
+  typedef std::pair<vIter, vIter> vIterPair;
+
+  typedef Graph::out_edge_iterator oeIter;
+  typedef std::pair<oeIter, oeIter> oeIterPair;
+
+  Graph::vertex_descriptor vd;
+  Graph::vertex_descriptor target;
+
+  vIterPair vip = boost::vertices(g);
+
+  std::cout << "digraph {" << std::endl;
+
+  for (vIter vit = vip.first; vit != vip.second; ++vit) {
+    vd = *vit;
+    oeIterPair oeip = boost::out_edges(vd, g);
+
+    if (oeip.first == oeip.second)
+      continue;
+
+    for (oeIter oeiter = oeip.first; oeiter != oeip.second; ++oeiter) {
+      //std::cout << g[*oeiter].name << std::endl;
+
+      target = boost::target(*oeiter, g);
+      std::cout << "  " << g[vd].name << " -> " << g[target].name;
+      std::cout << " [\"trans\"=" << g[*oeiter].name << "]" << std::endl;
+    }
+
+  }
+
+  std::cout << "}" << std::endl;
+
+  return;
+}
 
 
 
@@ -91,20 +130,19 @@ int main()
   boost::dynamic_properties dp(boost::ignore_other_properties);
 
   dp.property("node_id", boost::get(&VerticeProps::name, g));
-  dp.property("name", boost::get(&EdgeProps::name, g));
+  dp.property("trans", boost::get(&EdgeProps::name, g));
 
-  std::ifstream fin("g.gviz");
+  std::ifstream fin("ex.gviz");
   boost::read_graphviz(fin, g, dp);
 
 //  write_graphviz(std::cout, g);
 
 
-//Map::edge_descriptor e = *out_edges(v, map).first;
-
-  printVertexNames(g);
+//printVertexNames(g);
 //  printEdgeNames(g);
 
 
+  printGraph(g);
 
 
 
