@@ -4,6 +4,7 @@
 
 #include <boost/graph/graphviz.hpp>
 #include <boost/graph/adjacency_list.hpp>
+#include <boost/range/iterator_range.hpp>
 
 
 struct VerticeProps {
@@ -26,39 +27,43 @@ using vIterPair = std::pair<vIter, vIter>;
 using oeIter = Graph::out_edge_iterator;
 using oeIterPair = std::pair<oeIter, oeIter>;
 
+template <typename T>
+using Range = boost::iterator_range<T>;
 
 
-void printOutEdge(Graph g, eDesc e)
+template <typename T>
+Range<T> makeRange(const std::pair<T, T> &p)
 {
-  vDesc src = boost::source(e, g);
-  vDesc dst = boost::target(e, g);
+  return boost::make_iterator_range(p);
+}
+
+void printOutEdge(const Graph &g, const eDesc &e)
+{
+  const vDesc src = boost::source(e, g);
+  const vDesc dst = boost::target(e, g);
 
   std::cout << g[src].name << " -> " << g[dst].name;
   std::cout << " [trans=\"" << g[e].name << "\"]" << std::endl;
 }
 
-void printOutEdges(Graph g, vDesc vd) {
+void printOutEdges(const Graph &g, const vDesc &vd) {
 
-  oeIterPair oeip = boost::out_edges(vd, g);
+  const Range<oeIter> outEdges = makeRange(boost::out_edges(vd, g));
 
-  if (oeip.first == oeip.second) // no out edge
+  if (outEdges.empty())
     return;
 
-  using eDesc = Graph::edge_descriptor;
-
-  std::for_each(oeip.first, oeip.second, [&](eDesc e) {
+  for (const eDesc &e : outEdges)
     printOutEdge(g, e);
-  });
 
 }
 
-void printGraph(Graph g)
+void printGraph(const Graph &g)
 {
-  vIterPair vip = boost::vertices(g);
+  Range<vIter> vertices = makeRange(boost::vertices(g));
 
-  std::for_each(vip.first, vip.second, [&](vDesc vd) {
-    printOutEdges(g, vd);
-  });
+  for (const vDesc &v : vertices)
+    printOutEdges(g, v);
 }
 
 int main()
