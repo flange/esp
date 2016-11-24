@@ -1,0 +1,50 @@
+PLACE
+  A,
+  C,
+  E,
+  H,
+  K
+;
+
+MARKING
+  A:  1
+;
+
+TRANSITION B
+CONSUME
+  A:  1;
+PRODUCE
+  C:  1;
+
+TRANSITION D
+CONSUME
+  C:  1;
+PRODUCE
+  E:  1;
+
+TRANSITION F
+CONSUME
+  E:  1;
+PRODUCE
+;
+
+TRANSITION G
+CONSUME
+  E:  1;
+PRODUCE
+  H:  1;
+
+TRANSITION I
+CONSUME
+  H:  1;
+PRODUCE
+  K:  1;
+
+TRANSITION J
+CONSUME
+  H:  1;
+PRODUCE
+;
+
+
+{ END OF FILE }

@@ -1,0 +1,1020 @@
+{
+  "bounds" : {
+    "lowerRight" : {
+      "y" : 1050,
+      "x" : 1561
+    },
+    "upperLeft" : {
+      "y" : 0,
+      "x" : 0
+    }
+  },
+  "resourceId" : "canvas",
+  "childShapes" : [ {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 140,
+        "x" : 155
+      },
+      "upperLeft" : {
+        "y" : 110,
+        "x" : 125
+      }
+    },
+    "resourceId" : "sid-99EEA7BC-4A4E-4028-ACDB-FCF814A5ED0E",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Red",
+      "external" : "false",
+      "numberoftokens" : 1,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "1",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-2B368581-E916-46C7-A67F-5EBF7AEA3E9B"
+    }, {
+      "resourceId" : "sid-70E8AA20-18C7-4F0E-A3FE-8CBB869502E8"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 145,
+        "x" : 285
+      },
+      "upperLeft" : {
+        "y" : 105,
+        "x" : 245
+      }
+    },
+    "resourceId" : "sid-04009779-A662-490E-8A96-0540E0AA57A8",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6D68A07F-7142-4232-858F-7BD9C0883039"
+    }, {
+      "resourceId" : "sid-BF9CC635-5C37-4619-882F-B2DD6D880309"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 350,
+        "x" : 155
+      },
+      "upperLeft" : {
+        "y" : 320,
+        "x" : 125
+      }
+    },
+    "resourceId" : "sid-797F9603-B7CA-4727-9D68-8B00B3AC38B9",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Yellow",
+      "external" : "false",
+      "numberoftokens" : 0,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "0",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6E27AFE6-8407-40D9-A92E-A5FC738C4E6A"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 250,
+        "x" : 160
+      },
+      "upperLeft" : {
+        "y" : 210,
+        "x" : 120
+      }
+    },
+    "resourceId" : "sid-3F1D879C-A1E4-4DE5-835B-8C820B84CF30",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-204759F1-0484-4A89-8058-41BFC673A89C"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 245,
+        "x" : 280
+      },
+      "upperLeft" : {
+        "y" : 215,
+        "x" : 250
+      }
+    },
+    "resourceId" : "sid-6C70CD97-06AA-42CC-A34B-3BD838898D90",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Green",
+      "external" : "false",
+      "numberoftokens" : 0,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "0",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-224725EB-F74F-4831-AB0C-302AB2EFC144"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 355,
+        "x" : 285
+      },
+      "upperLeft" : {
+        "y" : 315,
+        "x" : 245
+      }
+    },
+    "resourceId" : "sid-8F2645B5-A57D-4D18-808F-2D72033F0190",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-DE33BCFA-B68F-4E83-8D01-F48F0D5F31C0"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 125,
+        "x" : 244.46875
+      },
+      "upperLeft" : {
+        "y" : 125,
+        "x" : 155.6484375
+      }
+    },
+    "resourceId" : "sid-2B368581-E916-46C7-A67F-5EBF7AEA3E9B",
+    "target" : {
+      "resourceId" : "sid-04009779-A662-490E-8A96-0540E0AA57A8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-04009779-A662-490E-8A96-0540E0AA57A8"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 214.234375,
+        "x" : 265
+      },
+      "upperLeft" : {
+        "y" : 145,
+        "x" : 265
+      }
+    },
+    "resourceId" : "sid-6D68A07F-7142-4232-858F-7BD9C0883039",
+    "target" : {
+      "resourceId" : "sid-6C70CD97-06AA-42CC-A34B-3BD838898D90"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6C70CD97-06AA-42CC-A34B-3BD838898D90"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 230,
+        "x" : 249.3515625
+      },
+      "upperLeft" : {
+        "y" : 230,
+        "x" : 160
+      }
+    },
+    "resourceId" : "sid-224725EB-F74F-4831-AB0C-302AB2EFC144",
+    "target" : {
+      "resourceId" : "sid-3F1D879C-A1E4-4DE5-835B-8C820B84CF30"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-3F1D879C-A1E4-4DE5-835B-8C820B84CF30"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 335,
+        "x" : 244.46875
+      },
+      "upperLeft" : {
+        "y" : 335,
+        "x" : 155.6484375
+      }
+    },
+    "resourceId" : "sid-6E27AFE6-8407-40D9-A92E-A5FC738C4E6A",
+    "target" : {
+      "resourceId" : "sid-8F2645B5-A57D-4D18-808F-2D72033F0190"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-8F2645B5-A57D-4D18-808F-2D72033F0190"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 439,
+      "x" : 265
+    }, {
+      "y" : 439,
+      "x" : 73
+    }, {
+      "y" : 125,
+      "x" : 73
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 439,
+        "x" : 265
+      },
+      "upperLeft" : {
+        "y" : 125,
+        "x" : 73
+      }
+    },
+    "resourceId" : "sid-DE33BCFA-B68F-4E83-8D01-F48F0D5F31C0",
+    "target" : {
+      "resourceId" : "sid-99EEA7BC-4A4E-4028-ACDB-FCF814A5ED0E"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-99EEA7BC-4A4E-4028-ACDB-FCF814A5ED0E"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 140,
+        "x" : 665
+      },
+      "upperLeft" : {
+        "y" : 110,
+        "x" : 635
+      }
+    },
+    "resourceId" : "sid-6888908A-229D-4D3A-8EA6-04EF63CD0CEC",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Red",
+      "external" : "false",
+      "numberoftokens" : 1,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "1",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-FC81C122-88A3-439B-B7E4-7DC00E0C9A03"
+    }, {
+      "resourceId" : "sid-9605F353-B497-4573-9D3A-D8DDEF23C84E"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 145,
+        "x" : 795
+      },
+      "upperLeft" : {
+        "y" : 105,
+        "x" : 755
+      }
+    },
+    "resourceId" : "sid-20D75BFC-DCAF-4E48-8B02-57218CAFAE69",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-2FDA6660-AE40-40EC-8D97-C123CB193631"
+    }, {
+      "resourceId" : "sid-192F27F6-D1F9-4ADC-886B-8E264919533E"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 350,
+        "x" : 665
+      },
+      "upperLeft" : {
+        "y" : 320,
+        "x" : 635
+      }
+    },
+    "resourceId" : "sid-A26EFBC9-7D96-45DC-8909-65B891F7FA6F",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Yellow",
+      "external" : "false",
+      "numberoftokens" : 0,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "0",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-B6FE3E5C-C806-4B54-8107-08B80B70BD47"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 250,
+        "x" : 670
+      },
+      "upperLeft" : {
+        "y" : 210,
+        "x" : 630
+      }
+    },
+    "resourceId" : "sid-1F49CF40-9497-412D-A722-029F11698CC8",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-122479C2-9CA3-40F2-B9E6-4DF03253D273"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 245,
+        "x" : 790
+      },
+      "upperLeft" : {
+        "y" : 215,
+        "x" : 760
+      }
+    },
+    "resourceId" : "sid-1D591CDB-078A-4491-8516-84BE2FE4645A",
+    "childShapes" : [ ],
+    "properties" : {
+      "exttype" : "Push",
+      "id" : "",
+      "title" : "Green",
+      "external" : "false",
+      "numberoftokens" : 0,
+      "locatortypes" : "",
+      "locatornames" : "",
+      "numberoftokens_drawing" : "0",
+      "numberoftokens_text" : "",
+      "locatorexpr" : "",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Place"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6D35B531-3FC2-4833-9CD4-D19A25B9A7BB"
+    } ]
+  }, {
+    "dockers" : [ ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 355,
+        "x" : 795
+      },
+      "upperLeft" : {
+        "y" : 315,
+        "x" : 755
+      }
+    },
+    "resourceId" : "sid-12752D13-DB02-4D8B-940D-71A6CC2FC2E8",
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "title" : "",
+      "communicationtype" : "Default",
+      "communicationchannel" : "",
+      "guard" : "",
+      "oform" : "",
+      "omodel" : "",
+      "firetype" : "Automatic",
+      "href" : ""
+    },
+    "stencil" : {
+      "id" : "Transition"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-20DCF823-8270-4187-AB2E-EDE8DD03E95C"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 125,
+        "x" : 754.46875
+      },
+      "upperLeft" : {
+        "y" : 125,
+        "x" : 665.6484375
+      }
+    },
+    "resourceId" : "sid-FC81C122-88A3-439B-B7E4-7DC00E0C9A03",
+    "target" : {
+      "resourceId" : "sid-20D75BFC-DCAF-4E48-8B02-57218CAFAE69"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-20D75BFC-DCAF-4E48-8B02-57218CAFAE69"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 214.234375,
+        "x" : 775
+      },
+      "upperLeft" : {
+        "y" : 145,
+        "x" : 775
+      }
+    },
+    "resourceId" : "sid-2FDA6660-AE40-40EC-8D97-C123CB193631",
+    "target" : {
+      "resourceId" : "sid-1D591CDB-078A-4491-8516-84BE2FE4645A"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-1D591CDB-078A-4491-8516-84BE2FE4645A"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 319.234375,
+        "x" : 650
+      },
+      "upperLeft" : {
+        "y" : 250,
+        "x" : 650
+      }
+    },
+    "resourceId" : "sid-122479C2-9CA3-40F2-B9E6-4DF03253D273",
+    "target" : {
+      "resourceId" : "sid-A26EFBC9-7D96-45DC-8909-65B891F7FA6F"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-A26EFBC9-7D96-45DC-8909-65B891F7FA6F"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 335,
+        "x" : 754.46875
+      },
+      "upperLeft" : {
+        "y" : 335,
+        "x" : 665.6484375
+      }
+    },
+    "resourceId" : "sid-B6FE3E5C-C806-4B54-8107-08B80B70BD47",
+    "target" : {
+      "resourceId" : "sid-12752D13-DB02-4D8B-940D-71A6CC2FC2E8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-12752D13-DB02-4D8B-940D-71A6CC2FC2E8"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 439,
+      "x" : 775
+    }, {
+      "y" : 439,
+      "x" : 583
+    }, {
+      "y" : 125,
+      "x" : 583
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 439,
+        "x" : 775
+      },
+      "upperLeft" : {
+        "y" : 125,
+        "x" : 583
+      }
+    },
+    "resourceId" : "sid-20DCF823-8270-4187-AB2E-EDE8DD03E95C",
+    "target" : {
+      "resourceId" : "sid-6888908A-229D-4D3A-8EA6-04EF63CD0CEC"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6888908A-229D-4D3A-8EA6-04EF63CD0CEC"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 15,
+      "x" : 15
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 230,
+        "x" : 759.3515625
+      },
+      "upperLeft" : {
+        "y" : 230,
+        "x" : 670
+      }
+    },
+    "resourceId" : "sid-6D35B531-3FC2-4833-9CD4-D19A25B9A7BB",
+    "target" : {
+      "resourceId" : "sid-1F49CF40-9497-412D-A722-029F11698CC8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-1F49CF40-9497-412D-A722-029F11698CC8"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 319.234375,
+        "x" : 140
+      },
+      "upperLeft" : {
+        "y" : 250,
+        "x" : 140
+      }
+    },
+    "resourceId" : "sid-204759F1-0484-4A89-8058-41BFC673A89C",
+    "target" : {
+      "resourceId" : "sid-797F9603-B7CA-4727-9D68-8B00B3AC38B9"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-797F9603-B7CA-4727-9D68-8B00B3AC38B9"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 0,
+      "x" : 15
+    }, {
+      "y" : 80,
+      "x" : 650
+    }, {
+      "y" : 80,
+      "x" : 265
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 110,
+        "x" : 650
+      },
+      "upperLeft" : {
+        "y" : 80,
+        "x" : 265
+      }
+    },
+    "resourceId" : "sid-9605F353-B497-4573-9D3A-D8DDEF23C84E",
+    "target" : {
+      "resourceId" : "sid-04009779-A662-490E-8A96-0540E0AA57A8"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-04009779-A662-490E-8A96-0540E0AA57A8"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 4,
+      "x" : 15
+    }, {
+      "y" : 63,
+      "x" : 140
+    }, {
+      "y" : 63,
+      "x" : 775
+    }, {
+      "y" : 20,
+      "x" : 20
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 109.8125,
+        "x" : 775
+      },
+      "upperLeft" : {
+        "y" : 63,
+        "x" : 140
+      }
+    },
+    "resourceId" : "sid-70E8AA20-18C7-4F0E-A3FE-8CBB869502E8",
+    "target" : {
+      "resourceId" : "sid-20D75BFC-DCAF-4E48-8B02-57218CAFAE69"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-20D75BFC-DCAF-4E48-8B02-57218CAFAE69"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 92,
+      "x" : 283
+    }, {
+      "y" : 92,
+      "x" : 624
+    }, {
+      "y" : 15,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 112.87075832777246,
+        "x" : 640.4436277733965
+      },
+      "upperLeft" : {
+        "y" : 92,
+        "x" : 276.1663521306806
+      }
+    },
+    "resourceId" : "sid-BF9CC635-5C37-4619-882F-B2DD6D880309",
+    "target" : {
+      "resourceId" : "sid-6888908A-229D-4D3A-8EA6-04EF63CD0CEC"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-6888908A-229D-4D3A-8EA6-04EF63CD0CEC"
+    } ]
+  }, {
+    "dockers" : [ {
+      "y" : 20,
+      "x" : 20
+    }, {
+      "y" : 125,
+      "x" : 888
+    }, {
+      "y" : 577,
+      "x" : 888
+    }, {
+      "y" : 577,
+      "x" : 22
+    }, {
+      "y" : 140,
+      "x" : 22
+    }, {
+      "y" : 30,
+      "x" : 15
+    } ],
+    "bounds" : {
+      "lowerRight" : {
+        "y" : 577,
+        "x" : 888
+      },
+      "upperLeft" : {
+        "y" : 125,
+        "x" : 22
+      }
+    },
+    "resourceId" : "sid-192F27F6-D1F9-4ADC-886B-8E264919533E",
+    "target" : {
+      "resourceId" : "sid-99EEA7BC-4A4E-4028-ACDB-FCF814A5ED0E"
+    },
+    "childShapes" : [ ],
+    "properties" : {
+      "id" : "",
+      "label" : "",
+      "transformation" : ""
+    },
+    "stencil" : {
+      "id" : "Arc"
+    },
+    "outgoing" : [ {
+      "resourceId" : "sid-99EEA7BC-4A4E-4028-ACDB-FCF814A5ED0E"
+    } ]
+  } ],
+  "properties" : {
+    "author" : "",
+    "title" : "",
+    "modificationdate" : "10/07/07",
+    "engine" : "false",
+    "documentation" : "",
+    "language" : "English",
+    "creationdate" : "10/07/07",
+    "version" : ""
+  },
+  "offset" : {
+    "y" : -1,
+    "x" : -1
+  },
+  "ssextensions" : [ ],
+  "stencilset" : {
+    "url" : "/stencilsets/petrinets/petrinet.json?version=5.2.0",
+    "namespace" : "http://b3mn.org/stencilset/petrinet#"
+  },
+  "stencil" : {
+    "id" : "Diagram"
+  }
+}

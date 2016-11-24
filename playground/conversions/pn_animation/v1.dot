@@ -1,0 +1,117 @@
+digraph N {
+ graph [fontname="Helvetica" nodesep=0.25 ranksep="0.25" remincross=true label="Petri net generated from v1.pnml\n&Omega;=True"]
+ node [fontname="Helvetica"   width=".3" height=".3" label="" style=filled]
+ edge [fontname="Helvetica" color=white arrowhead=none weight="20.0"]
+
+// interface
+
+// places
+ node [shape=circle fillcolor=white]
+p1	[]
+ p1_l	[style=invis]
+ p1_l -> p1 [headlabel="place_0"]
+p2	[]
+ p2_l	[style=invis]
+ p2_l -> p2 [headlabel="place_1"]
+p9	[]
+ p9_l	[style=invis]
+ p9_l -> p9 [headlabel="place_10"]
+p10	[]
+ p10_l	[style=invis]
+ p10_l -> p10 [headlabel="place_11"]
+p3	[]
+ p3_l	[style=invis]
+ p3_l -> p3 [headlabel="place_2"]
+p4	[]
+ p4_l	[style=invis]
+ p4_l -> p4 [headlabel="place_3"]
+p5	[]
+ p5_l	[style=invis]
+ p5_l -> p5 [headlabel="place_4"]
+p6	[]
+ p6_l	[style=invis]
+ p6_l -> p6 [headlabel="place_7"]
+p7	[]
+ p7_l	[style=invis]
+ p7_l -> p7 [headlabel="place_8"]
+p8	[]
+ p8_l	[style=invis]
+ p8_l -> p8 [headlabel="place_9"]
+ // transitions
+ node [shape=box]
+t8	[]
+ t8_l	[style=invis]
+ t8_l -> t8 [headlabel="trans_0"]
+t9	[]
+ t9_l	[style=invis]
+ t9_l -> t9 [headlabel="trans_1"]
+t3	[]
+ t3_l	[style=invis]
+ t3_l -> t3 [headlabel="trans_2"]
+t4	[]
+ t4_l	[style=invis]
+ t4_l -> t4 [headlabel="trans_3"]
+t5	[]
+ t5_l	[style=invis]
+ t5_l -> t5 [headlabel="trans_4"]
+t6	[]
+ t6_l	[style=invis]
+ t6_l -> t6 [headlabel="trans_5"]
+t10	[]
+ t10_l	[style=invis]
+ t10_l -> t10 [headlabel="trans_6"]
+t1	[]
+ t1_l	[style=invis]
+ t1_l -> t1 [headlabel="trans_7"]
+t2	[]
+ t2_l	[style=invis]
+ t2_l -> t2 [headlabel="trans_8"]
+t7	[]
+ t7_l	[style=invis]
+ t7_l -> t7 [headlabel="trans_9"]
+
+ // inner cluster
+ subgraph cluster1
+ {
+  t8 t8_l t9 t9_l t3 t3_l t4 t4_l t5 t5_l t6 t6_l t10 t10_l t1 t1_l t2 t2_l t7 t7_l
+  p1 p1_l p2 p2_l p9 p9_l p10 p10_l p3 p3_l p4 p4_l p5 p5_l p6 p6_l p7 p7_l p8 p8_l
+  label="" style=invis
+ }
+
+ // arcs
+ edge [fontname="Helvetica" arrowhead=normal color=black]
+ p1 -> t9	[]
+ t6 -> p1	[]
+ t5 -> p1	[]
+ p2 -> t6	[]
+ t10 -> p2	[]
+ p2 -> t5	[]
+ p9 -> t4	[]
+ p9 -> t8	[]
+ t1 -> p9	[]
+ p10 -> t6	[]
+ t2 -> p10	[]
+ p3 -> t10	[]
+ t1 -> p3	[]
+ t2 -> p3	[]
+ t7 -> p4	[]
+ p4 -> t2	[]
+ p4 -> t1	[]
+ p5 -> t7	[]
+ t9 -> p6	[]
+ t3 -> p7	[]
+ p7 -> t5	[]
+ t8 -> p8	[]
+ p8 -> t3	[]
+ t4 -> p8	[]
+
+
+
+
+
+
+
+
+
+
+}
