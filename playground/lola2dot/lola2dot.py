@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import sys
+
 #lolafile = open("ex-small.graph", "r")
 
 source  = 0
@@ -9,7 +11,7 @@ trans   = "bla"
 
 print("digraph {")
 
-with open('ex-small.graph') as lolafile:
+with open(sys.argv[1]) as lolafile:
     for line in lolafile:
 
       if len(line) == 1:
